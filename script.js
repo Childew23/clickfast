@@ -24,5 +24,4 @@ function handleTimer(timerElement) {
     }, 5000);
 }
 
-
-module.exports = { handleClick, handleTimer }
+module.exports = { handleClick, handleTimer };
