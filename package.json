@@ -15,9 +15,10 @@
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest --env=jsdom"
   },
   "dependencies": {
+    "jest-environment-jsdom": "^29.7.0",
     "jsdom": "^26.1.0"
   },
   "devDependencies": {
