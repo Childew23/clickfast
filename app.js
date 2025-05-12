@@ -27,3 +27,4 @@ let timerElement = document.querySelector('.timer');
 handleClick(btn, scoreElement);
 
 handleTimer(timerElement);
+
